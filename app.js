@@ -10,7 +10,7 @@ function playSong(index) {
         currentSongIndex = index;
         audio.src = songList[index].href;
         audio.play();
-        playPauseBtn.textContent = 'Pause';
+        playPauseBtn.textContent = 'Play';
     }
 }
 
